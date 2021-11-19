@@ -20,7 +20,7 @@ Chris
 4) Run webassign_to_canvas.py
 -- This will create the file webassign_out.csv
 -- Note any "Error with..." output from Python. Save these names for double-checking later.
-5) Open canvs.csv in Excel. 
+5) Open canvas.csv in Excel. 
 -- Select cell B3, which should be the top student's ID number. Within "View," select "Freeze Panes" twice. 
 -- Horizontally scroll to see the columns that correspond to the WebAssign grades to be imported, assuming that these columns were previously created in Canvas and you are just entering numbers.
 6) From webassign_out.csv, select all (ctrl+a) and copy (ctrl+c).
@@ -30,6 +30,7 @@ Chris
 -- Delete the columns with student names from webassign_out.csv.
 -- Copy the valuable data in the pasted section and paste it under the column titles in the original canvas export, assuming these columns were already present. Alternatively, you can create new columns in canvas.csv that will require confirmation during the Canvas grade import.
 10) Save the altered canvas.csv and import it into the Canvas grade book online.
+-- Note the new columns you are creating and the grades you are changing.
 
 
 ---
